@@ -30,6 +30,14 @@ const Main = () => {
   const reset = () => {
     setCart([]);
   };
+  const random = () => {
+    const randomElement = cart[Math.floor(Math.random() * cart.length)];
+    for (const item of product) {
+      if (item.id === randomElement) {
+        setCart([item.id]);
+      }
+    }
+  };
 
   return (
     <div className="container-fluid">
@@ -46,7 +54,7 @@ const Main = () => {
           </div>
         </div>
         <div className="col-md-3">
-          <Cart items={storeData} reset={reset}></Cart>
+          <Cart items={storeData} reset={reset} random={random}></Cart>
         </div>
       </div>
     </div>

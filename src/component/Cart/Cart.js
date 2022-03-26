@@ -1,7 +1,7 @@
 import React from "react";
 
 const Cart = (props) => {
-  const { items } = props;
+  const { items, reset, random } = props;
 
   return (
     <div>
@@ -14,7 +14,9 @@ const Cart = (props) => {
               <h6 key={item.id}>{item.name}</h6>
             ))}
           </div>
-          <button className="btn btn-primary me-5">Choose One</button>
+          <button className="btn btn-primary me-5" onClick={props.random}>
+            Choose One
+          </button>
           <button className="btn btn-primary" onClick={props.reset}>
             Reset
           </button>
