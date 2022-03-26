@@ -1,0 +1,10 @@
+.navbar {
+  height: 70px;
+  background-color: #1c2b35;
+}
+.navbar-brand img {
+  width: 140px;
+}
+.nav-item li a:hover {
+  color: orange;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Honda CBR 150",
+    "price": 480000,
+    "img": "https://www.banglamotor.net/images/honda/honda-cbr150r-repsol-first1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Honda CB eXmotoin",
+    "price": 550000,
+    "img": "https://www.banglamotor.net/images/honda/honda-cb150r-exmotion-first1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Honda CB Hornet",
+    "price": 190000,
+    "img": "https://www.banglamotor.net/images/honda/honda-cb-hornet-160r-first1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Yamaha R15 Indo",
+    "price": 510000,
+    "img": "https://www.banglamotor.net/images/yamaha/yamaha-r15-v3-indonesian-image1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Yamaha Fz-s v3",
+    "price": 255000,
+    "img": "https://www.banglamotor.net/images/yamaha/yamaha-fzs-fi-v3-abs-01.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Yamaha Xsr 155",
+    "price": 545000,
+    "img": "https://www.banglamotor.net/images/yamaha/yamaha-xsr-155-first1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Suzuki GSX R150",
+    "price": 350000,
+    "img": "https://www.banglamotor.net/images/suzuki/suzuki-gsx-r150-img-a1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Suzuki Gixxer SF",
+    "price": 220000,
+    "img": "https://www.banglamotor.net/images/suzuki/suzuki-gixxer-sf-old-first1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Tvs Apache RTR",
+    "price": 208000,
+    "img": "https://www.banglamotor.net/images/tvs/tvs-apache-rtr-160-4v-dd-image1.jpg"
+  }
+]
