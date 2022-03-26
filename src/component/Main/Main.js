@@ -45,7 +45,10 @@ const Main = () => {
 
   return (
     <div className="container-fluid">
-      <div className="row">
+      <div className="row ">
+        <div className="col-md-3">
+          <Cart items={storeData} reset={reset} random={random}></Cart>
+        </div>
         <div className="col-md-9">
           <div className="row row-cols-1 row-cols-md-3 g-4 p-4">
             {product.map((item) => (
@@ -56,9 +59,6 @@ const Main = () => {
               ></Product>
             ))}
           </div>
-        </div>
-        <div className="col-md-3">
-          <Cart items={storeData} reset={reset} random={random}></Cart>
         </div>
       </div>
     </div>
