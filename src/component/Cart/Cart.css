@@ -1,4 +1,8 @@
 .cart {
-  background-color: #a8a8a8;
+  background-color: #fff;
+
   border-radius: 15px;
+}
+.bg-custom {
+  background-color: #e8e6e9;
 }

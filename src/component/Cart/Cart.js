@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cart.css";
 
 const Cart = (props) => {
   const { items, reset, random } = props;
@@ -13,7 +14,7 @@ const Cart = (props) => {
             {items.map((item) => (
               <div
                 key={item.id}
-                className="select-item row d-flex align-items-center bg-success p-2 mb-2 rounded text-white"
+                className="select-item row d-flex align-items-center bg-custom p-2 mb-2 rounded "
               >
                 <div className="col-3">
                   <img className="img-fluid" src={item.img} alt="" />
