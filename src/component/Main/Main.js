@@ -32,9 +32,13 @@ const Main = () => {
   };
   const random = () => {
     const randomElement = cart[Math.floor(Math.random() * cart.length)];
-    for (const item of product) {
-      if (item.id === randomElement) {
-        setCart([item.id]);
+    if (cart.length < 4) {
+      alert("Please add atlest 4 Products");
+    } else {
+      for (const item of product) {
+        if (item.id === randomElement) {
+          setCart([item.id]);
+        }
       }
     }
   };
